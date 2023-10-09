@@ -1,14 +1,14 @@
 {
     "builds":[
         {
-            "src":"app.py",
+            "src":"video_thumbnail_app.py",
             "use":"@vercel/python"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"app.py"
+            "dest":"video_thumbnail_app.py"
         }
     ]
 }
